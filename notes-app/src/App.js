@@ -3,7 +3,7 @@ import "./App.css";
 import Note from "./notes";
 
 function App(){
-  const [notes,setNotes]=useState([]);
+  const [notes,setNotes]=useState([]); 
   const [input,setInput]=useState("");
 
   const addNote =()=>{
@@ -36,5 +36,4 @@ function App(){
     </div>
   );
 }
-
 export default App;
